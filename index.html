@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="./output.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="src/input.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="relative bg-[#FFD4D0]">
+        <div class="z-10 relative flex justify-between items-center mx-auto px-2 md:px-0 py-3 md:py-5 container">
+            <div class="cursor-pointer">
+                <img src="assets/Logo.png" alt="">
+            </div>
+            <div class="hidden md:block">
+                <ul class="flex justify-center items-center gap-6 font-semibold">
+                    <li class="hover:text-[#FC3314] duration-300 cursor-pointer">About</li>
+                    <li class="hover:text-[#FC3314] duration-300 cursor-pointer">Service</li>
+                    <li class="hover:text-[#FC3314] duration-300 cursor-pointer">Portfolio</li>
+                    <li class="hover:text-[#FC3314] duration-300 cursor-pointer">Blog</li>
+                </ul>
+            </div>
+            <div>
+                <button class="bg-black hover:bg-[#FC3314] px-4 py-2 text-white duration-300 cursor-pointer">Let's Talk</button>
+            </div>
+        </div>
+
+        <div class="md:hidden">
+            <ul class="flex justify-between items-center gap-6 px-2 pb-2 font-semibold">
+                <li class="hover:text-[#FC3314] duration-300 cursor-pointer">About</li>
+                <li class="hover:text-[#FC3314] duration-300 cursor-pointer">Service</li>
+                <li class="hover:text-[#FC3314] duration-300 cursor-pointer">Portfolio</li>
+                <li class="hover:text-[#FC3314] duration-300 cursor-pointer">Blog</li>
+            </ul>
+        </div>
+
+        <!-- Header Background Image -->
+        <div class="top-0 left-[720px] z-0 absolute">
+            <img src="assets/Background.png" alt="">
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="bg-[#FFD4D0]">
+        <div class="flex md:flex-row flex-col justify-between items-center mx-auto px-2 md:px-0 pt-10 container">
+
+            <!-- Hero Text Part -->
+            <div class="space-y-4">
+                <p class="text-xl">UX Designer</p>
+                <h1 class="font-bold text-5xl">Hi There, I'm</h1>
+                <h1 class="font-bold text-[#FC3314] text-5xl">John Smith</h1>
+                <p>Welcome to my portfolio of captivating digital <br> experiences. Explore my work and let's create something <br> extraordinary together.</p>
+                <div class="flex items-center gap-4 pt-4">
+                    <button class="bg-black hover:bg-[#FC3314] px-10 py-2 border border-black text-white duration-300 cursor-pointer">Hire Me</button>
+
+                    <button class="hover:bg-white px-10 py-2 border duration-300 cursor-pointer">Portfolio</button>
+                </div>
+            </div>
+
+            <!-- Hero Image Part -->
+            <div class="pt-5 md:pt-0">
+                <img src="assets/hero-image.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- About Me Section -->
+    <div class="bg-black">
+        <div class="space-y-8 mx-auto px-2 md:px-0 py-14 text-white text-center container">
+            <h3 class="font-bold text-3xl md:text-5xl">About Me</h3>
+            <p class="font-light">I'm John Smith, a UI/UX designer dedicated to crafting intuitive and visually stunning digital <br> experiences. With a passion for user-centric design, I transform ideas into functional and beautiful <br> interfaces. Let's collaborate and shape the future of design together.</p>
+
+            <div class="flex md:flex-row flex-col justify-center items-center gap-10 md:gap-96">
+                <div>
+                    <p class="font-bold text-[#FFD4D0] text-5xl md:text-6xl">502</p>
+                    <p class="font-bold">Projects Done</p>
+                </div>
+                <div>
+                    <p class="font-bold text-[#FFD4D0] text-5xl md:text-6xl">10+</p>
+                    <p class="font-bold">Years of Experience</p>
+                </div>
+                <div>
+                    <p class="font-bold text-[#FFD4D0] text-5xl md:text-6xl">273+</p>
+                    <p class="font-bold">Clients Served</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="flex justify-center">
+            <img src="assets/about-bg.png" alt="">
+        </div>
+    </div>
+</body>
+
+</html>
